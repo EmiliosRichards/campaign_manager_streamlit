@@ -2,13 +2,13 @@
 
 This is the early version of a lightweight internal tool for managing and viewing campaign specifications.
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Streamlit** – fast, easy UI
 - **PostgreSQL** – structured storage for campaigns
 - **Python** – backend logic and data handling
 
-## ✅ Current Progress 
+## Current Progress 
 
 - Set up project structure
 - Created minimal Streamlit app
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS campaign_specs (
 );
 ``` 
 
-## 🚧 Next Steps
+## Next Steps
 
 - Load real campaign data
 - Add search/filter capabilities

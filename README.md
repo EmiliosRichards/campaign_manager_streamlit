@@ -1,6 +1,20 @@
-# API Spec Manager
+# Campaign Manager MVP (Streamlit + PostgreSQL)
 
-A Streamlit application for managing API specifications and campaign data.
+This is the early version of a lightweight internal tool for managing and viewing campaign specifications.
+
+## 🧱 Tech Stack
+
+- **Streamlit** – fast, easy UI
+- **PostgreSQL** – structured storage for campaigns
+- **Python** – backend logic and data handling
+
+## ✅ Current Progress 
+
+- Set up project structure
+- Created minimal Streamlit app
+- Displaying campaign fields and info in the UI
+- Postgres Integration
+- Defined database schema
 
 ## Project Structure
 
@@ -56,3 +70,13 @@ CREATE TABLE IF NOT EXISTS campaign_specs (
     last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ``` 
+
+## 🚧 Next Steps
+
+- Load real campaign data
+- Add search/filter capabilities
+- Prep for deployment on Streamlit Cloud
+
+---
+
+*Built for Ben Hopkins Lead Database project MVP.*

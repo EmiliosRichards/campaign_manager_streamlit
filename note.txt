@@ -1,0 +1,18 @@
+Features to add:
+
+Criteria summary
+
+Posting spec link
+
+CPA
+
+Transfer DID
+
+Campaign ID + Key
+
+Payment model
+
+
+
+
+should I add the ability to adjust fields through streamlit or should it be manually done. What are the best options for uploading/ editing campaigns 

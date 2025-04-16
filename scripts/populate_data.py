@@ -44,7 +44,7 @@ def insert_campaign_data(name, client, status, pdf_filename, notes, spec_url):
         conn.close()
 
 def main():
-    static_dir = "static"
+    static_dir = "app/static"
     if not os.path.exists(static_dir):
         os.makedirs(static_dir)
 
